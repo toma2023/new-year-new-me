@@ -8,7 +8,7 @@
 .nav-container{
     display: flex;
     justify-content: space-around;
-    background-color: #586858;
+    background-color: #F15B22;
     
 }
 .items{
@@ -210,8 +210,8 @@ padding-right: 239px;
     height: 40vh;
     padding-top: 20px;
     background-image: url(./images/watch.png);
-    
-    
+
+    background-blend-mode: overlay;
     display: flex;
     background-blend-mode: overlay;
     position: absolute;
@@ -299,6 +299,7 @@ font-weight: 700;
     padding-top: 0px;
    
 }
+
 .Subscribe-title{
     color: #F8F8F8;
     font-weight: 600px;
@@ -333,13 +334,14 @@ font-weight: 700;
     text-align: left;
 }
 
-.info-email{
-    padding: 0px;
+.author-email{
+    padding-left: 300px;
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400px;
-}
-.mobile{
+    }
+    .mobile{
+    padding-left: 300px;
     padding-top: 0px;
     padding-bottom: 15px;
     color: #FFFFFF;
@@ -348,6 +350,13 @@ font-weight: 700;
 }
 .social-icons{
     position: absolute;
-    padding-top: 0px;
-    padding-right: 20px;
+    padding-top: 60px;
+    margin: auto;
+}
+.contact{
+    padding-left: 10px;
+    margin: auto;
+ list-style: none;
+ text-align: left;
+ position: absolute;
 }
